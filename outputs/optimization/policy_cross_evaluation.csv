@@ -1,0 +1,5 @@
+policy_from,evaluated_on,purchase_and_order_cost,expected_holding_cost,expected_shortage_cost,expected_total_cost,expected_total_ending_inventory_units,expected_shortage_units
+context_aware,context_aware,3839290.0,128788.46763,6318579.9586,10286658.426229998,224.93,35124.130000000005
+context_aware,non_contextual,3839290.0,116932.31861000002,7014799.940199999,10971022.258809999,0.02,39815.75
+non_contextual,context_aware,4070980.0,147276.81771,6154823.7489,10373080.566610001,1017.95,34223.15000000001
+non_contextual,non_contextual,4070980.0,133735.62282,6697927.305000001,10902642.92782,44.58,38166.31

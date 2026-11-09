@@ -1,0 +1,4 @@
+policy,purchase_cost_inr,ordering_cost_inr,holding_cost_inr,shortage_cost_inr,total_inventory_cost_inr
+context_aware_optimization,15170329.0,22468.0,413243.86000000004,27626917.57,43232958.43
+non_contextual_optimization,16029351.0,22468.0,467970.02300000004,26679795.77,43199584.793
+historical_mean_order_up_to_30d,16749123.0,21998.0,517812.88300000003,26481734.590000004,43770668.473000005

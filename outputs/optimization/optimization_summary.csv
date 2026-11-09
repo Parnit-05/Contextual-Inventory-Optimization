@@ -1,0 +1,3 @@
+model,solver_status,solver,computational_time_seconds,scenario_count,horizon_days,product_count,shared_budget_inr,budget_applied,purchase_cost,fixed_order_cost,expected_holding_cost,expected_shortage_cost,expected_total_cost
+context_aware,optimal,SCIPY,39.50444819999393,100,30,50,,False,3833673.0,5617.0,128788.46763,6318579.9586000005,10286658.42623
+non_contextual,optimal,SCIPY,26.651654500048608,100,30,50,,False,4065363.0,5617.0,133735.62282,6697927.305,10902642.927819999

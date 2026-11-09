@@ -1,0 +1,5 @@
+comparison,unit_interpretation,repetitions,mean_paired_difference,standard_deviation,median,ci_lower,ci_upper,context_lower_cost_wins,context_lower_cost_win_rate
+context_minus_noncontext_cost_inr,INR,2,385.84350000321865,26163.954288424593,385.84350000321865,-234687.95917148743,235459.64617149386,1,0.5
+context_cost_saving_pct,percent; positive means context costs less,2,-0.0010436011466595924,0.058548317106889375,-0.0010436011466595924,-0.5270793597560472,0.5249921574627281,1,0.5
+context_minus_noncontext_fill_rate,fraction,2,-0.008964446612297478,0.0009408484050803565,-0.008964446612297478,-0.017417634149683427,-0.0005112590749115301,1,0.5
+context_minus_noncontext_lost_sales,units,2,2644.5,304.763022691402,2644.5,-93.68712064564625,5382.687120645646,1,0.5

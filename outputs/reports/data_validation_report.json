@@ -1,0 +1,72 @@
+{
+  "row_count": 36550,
+  "column_count": 26,
+  "missing_cells": 35500,
+  "missing_by_column": {
+    "festival_name": 35500
+  },
+  "duplicate_rows": 0,
+  "duplicate_date_product_keys": 0,
+  "invalid_dates": 0,
+  "type_coercion_errors": {},
+  "invalid_category_values": {
+    "category": 0,
+    "demand_pattern": 0,
+    "day_of_week": 0
+  },
+  "invalid_values": {
+    "negative_demand": 0,
+    "non_integer_demand": 0,
+    "discount_outside_0_25": 0,
+    "reliability_outside_0_1": 0,
+    "invalid_month": 0,
+    "invalid_binary_flags": 0,
+    "nonpositive_supplier_capacity": 0,
+    "negative_lead_time": 0
+  },
+  "data_types": {
+    "date": "datetime64[us]",
+    "product_id": "str",
+    "product_name": "str",
+    "category": "str",
+    "supplier_id": "str",
+    "demand_pattern": "str",
+    "demand_units": "int64",
+    "day_of_week": "str",
+    "month": "int64",
+    "weekend_indicator": "int64",
+    "festival_name": "str",
+    "festival_indicator": "int64",
+    "promotion_indicator": "int64",
+    "discount_percentage": "float64",
+    "synthetic_temperature_c": "float64",
+    "unit_cost_inr": "float64",
+    "selling_price_inr": "float64",
+    "holding_cost_per_unit_per_day_inr": "float64",
+    "ordering_cost_per_order_inr": "int64",
+    "initial_inventory_units": "int64",
+    "baseline_daily_demand_units": "int64",
+    "supplier_average_lead_time_days": "int64",
+    "supplier_lead_time_std_days": "float64",
+    "supplier_reliability": "float64",
+    "supplier_max_capacity_units": "int64",
+    "generated_mean_demand": "float64"
+  },
+  "categorical_values": {
+    "category": [
+      "Beverages",
+      "Dairy",
+      "Household",
+      "Snacks",
+      "Staples"
+    ],
+    "demand_pattern": [
+      "intermittent",
+      "seasonal",
+      "stable",
+      "trending",
+      "volatile"
+    ]
+  },
+  "status": "passed_with_warnings"
+}

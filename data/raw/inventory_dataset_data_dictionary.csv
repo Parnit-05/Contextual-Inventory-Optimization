@@ -1,0 +1,27 @@
+column,description,notes
+date,Date of the synthetic daily observation,YYYY-MM-DD
+product_id,Unique product identifier,P001-P050
+product_name,Product name,Synthetic retail product
+category,One of five product categories,Dairy/Staples/Beverages/Snacks/Household
+supplier_id,Assigned supplier identifier,S001-S010
+demand_pattern,Underlying generated demand behaviour,stable/seasonal/trending/intermittent/volatile
+demand_units,Generated observed daily demand; target variable,Non-negative integer
+day_of_week,Day name,Monday-Sunday
+month,Calendar month,1-12
+weekend_indicator,Whether date is Saturday or Sunday,0/1
+festival_name,Synthetic Indian festival/event label,None or event name
+festival_indicator,Whether date has a festival/event label,0/1
+promotion_indicator,Whether product is on promotion,0/1
+discount_percentage,Synthetic discount applied,0-25
+synthetic_temperature_c,Generated seasonal temperature context; not observed weather,Degrees Celsius
+unit_cost_inr,Purchase cost per unit,INR
+selling_price_inr,Selling price per unit,INR
+holding_cost_per_unit_per_day_inr,Daily holding cost per unit,INR
+ordering_cost_per_order_inr,Fixed cost per order,INR
+initial_inventory_units,Starting inventory parameter for simulation,Units
+baseline_daily_demand_units,Product baseline demand used by generator,Units/day
+supplier_average_lead_time_days,Mean supplier lead time,Days
+supplier_lead_time_std_days,Lead-time variability parameter,Days
+supplier_reliability,Synthetic supplier reliability score,0-1
+supplier_max_capacity_units,Maximum units supplier can supply per order,Units
+generated_mean_demand,"Underlying mean used by the demand generator; useful for validation, not a real observed feature",Units/day
